@@ -1,0 +1,112 @@
+body {
+    background-image: url("pizza_board_895x.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#navList {
+    display: inline;
+    list-style: none;
+    width: 100%;
+    background-color: #0c0c0c;
+}
+
+li {
+    float: right;
+    margin: 10px;
+}
+
+#left {
+    float: left;
+}
+
+#nav {
+    width: 100%;
+}
+
+#sectorNav {
+    background-color: #0c0c0c;
+    width: 100%;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#SM {
+    background-color: yellow;
+    border: none;
+    margin-top: 50px;
+}
+
+#SM-text {
+    color: black;
+}
+
+span {
+    display: inline;
+    margin-top: 50px;
+}
+
+.ol {
+    float: none;
+    font-weight: bold;
+    color: black;
+}
+
+img {
+    margin: 0px;
+    float: left;
+}
+
+#menuHTML {
+    background-image: url("https://s3.envato.com/files/258152229/DSC_6017111.jpg");
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-size: auto;
+    background-size: cover;
+}
+
+#top {
+    border-style: none;
+    border-bottom-style: solid;
+    float: left;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 0px;
+    width: 251px;
+    color: black;
+}
+
+#suggest {
+    width: 250px;
+    height: 250px;
+    border-style: none;
+    background-color: red;
+    font-size: 35px;
+    margin-left: 83px;
+    float: left;
+}
+
+#PizMenu-Buttons {
+    display: none;
+}
+
+#pizMenu {
+    float: right;
+    background-color: yellow;
+    margin-top: -250px;
+}
+
+#show {
+    border-style: none;
+    background-color: green;
+    margin-left: 83px;
+    border-radius: 25px;
+}
+.add{
+    text-align: center;
+}

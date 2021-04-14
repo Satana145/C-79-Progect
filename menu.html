@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pizzaria</title>
+    <link rel="icon" href="pizza 2.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body id="menuHTML">
+    <section id="sectorNav">
+        <div id="nav">
+            <ul id="navList">
+                <li id="left" class="li"><a href="index.html">Pizzaria</a></li>
+                <li class="li"><a href="add.html">Add Pizza</a></li>
+                <li class="li"><a href="menu.html">Veiw Menu</a></li>
+            </ul>
+        </div>
+    </section>
+    <div id="body">
+        <span id="interact" class="span">
+            <input id="top" type="text" placeholder="Type a Topping and Then press Enter">
+            <br></br>
+            <button id="suggest" onclick="suggest()">Reccomend a Pizza</button>
+            <br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+            <button id="show" onclick="sub()">Show the Menu</button>
+        </span>
+        <span id="pizMenu" class="span">
+            <div id="displayNamesWCommas"></div>
+            <div id="PizMenu-Buttons">
+            </div>
+        </span>
+    </div>
+</body>
+
+</html>
